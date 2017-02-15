@@ -1,0 +1,72 @@
+body{
+	background-image: url("multimedia/images/fondo.jpg");
+}
+#contenedor{
+	background: rgba(166,166,166, 0.8);
+	
+	position: relative;
+	margin:5%;
+	padding:0;
+	
+	text-align: center;
+}
+#pie{
+	color: white;
+	text-align:left;
+}
+#logo{
+	margin: 0 auto;
+	
+}	
+#contacto{
+	float:left;
+}
+#redes_sociales{
+	float:right;
+}
+ul { 
+  font-size: 120%;
+  list-style-type: none; 
+  padding: 10px;
+  text-align: center;
+}
+#formulario{
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+#tiempo{
+    width: 250px;
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    right: 0;
+}
+#contenido{
+	position: relative;
+	margin:0;
+	padding:0;
+	left:2%;
+	right: 25%;
+	width: 60%;
+	text-align: center;
+}
+li { 
+  display: inline; 
+}
+ul a { 
+  background-color: #663399;
+  border: white 4px solid; 
+  color: white; 
+  margin-left: 2em;
+  margin-right: 2em; 
+  padding: 0 10px; 
+  text-decoration: none; 
+  font-variant:small-caps;
+}
+ul a:hover{
+background-color:white;
+color:#663399;}
+
