@@ -1,72 +1,177 @@
+@media only screen (min-width:500px){
+  #contenedor{width:100%;
+              background-color:rgba(0,255,0,0.5);}
+
+}
 body{
 	background-image: url("multimedia/images/fondo.jpg");
-}
-#contenedor{
-	background: rgba(166,166,166, 0.8);
-	
-	position: relative;
-	margin:5%;
+	margin: 0;
 	padding:0;
-	
+	background-attachment: fixed;
+}
+.contenedor{
+	background: rgba(166,166,166, 0.8);
+	position: relative;
+	margin: 5%;
+    padding: 0px 0px 100px 0px;
 	text-align: center;
 }
-#pie{
-	color: white;
-	text-align:left;
+section{
+    position: relative;
+    margin: 5px;
+    padding: 0;
+    width: 70%;
+    text-align: center;
+	font-size: 20px;
 }
-#logo{
-	margin: 0 auto;
+section article {
+	margin: 0;
+    padding: 5px;
+}
+.cabecera{
+	margin:0%;
+	padding:0;
+	width: 100%;
+    height: 250px;
+}
+figure, figure #logo{
+	margin:0;
+	padding:0;
+	width: 100%;
+    height: 250px;
+}
+figure #logo{
+	width: 20%;
+    height: 20%;
+    margin: 5px 30px;
+}
+ #logo{
+    margin: 0%;
+    padding: 0px;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+}
+#banner{
+	margin: 0%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+h1, h2{
+	margin: 0;
+    padding: 10px;
+}
+.columna{
 	
-}	
+}
+.pie{
+	background: rgba(166,166,166, 0.8);
+    color: black;
+    font-weight: bold;
+    font-size: large;
+	margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+aside figure{
+	
+	float:right;
+	width:50%;
+}
+figure img{
+	float: right;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
 #contacto{
 	float:left;
 }
-#redes_sociales{
-	float:right;
-}
+
 ul { 
-  font-size: 120%;
-  list-style-type: none; 
-  padding: 10px;
-  text-align: center;
+    margin: 2%;
+    font-size: 120%;
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
 }
 #formulario{
     width: 300px;
     margin: 0;
     position: absolute;
-    top: 50%;
-    right: 0;
+    top: 32%;
+    right: 0
 }
 #tiempo{
     width: 250px;
     margin: 0;
     position: absolute;
-    top: 85%;
+    top: 66%;
     right: 0;
 }
-#contenido{
-	position: relative;
-	margin:0;
-	padding:0;
-	left:2%;
-	right: 25%;
-	width: 60%;
-	text-align: center;
-}
-li { 
+
+.nivel1 { 
   display: inline; 
 }
+.nilvel2{
+	display: block;
+}
 ul a { 
-  background-color: #663399;
-  border: white 4px solid; 
-  color: white; 
-  margin-left: 2em;
-  margin-right: 2em; 
-  padding: 0 10px; 
-  text-decoration: none; 
-  font-variant:small-caps;
+    background-color: #312f2f;
+    border: #545454 1px solid;
+    color: white;
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    font-variant: small-caps;
 }
 ul a:hover{
 background-color:white;
-color:#663399;}
+color:#663399;
+
+}
+.mapa{
+	width:100%;
+	height:100%;
+}
+div iframe{
+	width:100%;
+	height:100%;
+}
+ul li ul {
+	display: none;
+}
+ul li:hover  ul.noticias{
+	display: block;
+	position: absolute;
+	left: 7.4%;
+	top:27.5%;
+	font-size:15px;
+}
+ul li:hover  ul.guias{
+	display: block;
+	position: absolute;
+	left: 15%;
+	top:27.5%;
+	font-size:15px;
+}
+ul li:hover  ul.trucos{
+	display: block;
+	position: absolute;
+	left: 20.7%;
+	top:27.5%;
+	font-size:15px;
+}
+ul li:hover  ul.logros{
+	display: block;
+	position: absolute;
+	left: 27.5%;
+	top:27.5%;
+	font-size:15px;
+}
+ 
 
