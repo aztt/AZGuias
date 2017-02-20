@@ -1,151 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="author" content="Azahara"/>
-        <meta name="keywords" content="videojuegos, guias, trucos, noticias, ps4, xboxone, nintendo"/>
-        <meta name="description" content="Noticias y guias de videojuegos"/>
-        <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-        <title>¡Bienvenid@ a AZGuias!</title>
-        <link rel="stylesheet" type="text/css" href="css.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
-        <div class="contenedor">
-            <header class="cabecera">
-                <figure>
-                    <img id="banner" src="multimedia/images/banner.jpg" alt="banner"/>
-                </figure>
-            </header>
-            <!--            <nav class="menu">
-                            <ul>
-                                <li class="nivel1"><a href="#cabecera">Portada</a></li>
-                                <li class="nivel1"><a href="html/noticias.html#cabecera">Noticias</a>
-                                    <ul class="noticias">
-                                        <li><a href="html/pagina2.html#cabecera">XboxOne</a></li>
-                                        <li><a href="html/pagina2.html#cabecera">Switch</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nivel1"><a href="html/guias.html#cabecera">Guías</a>
-                                    <ul class="guias">
-                                        <li><a href="html/pagina2.html#cabecera">Dragon Quest VIII</a></li>
-                                        <li><a href="html/pagina2.html#cabecera">Red Dead Redemption</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nivel1"><a href="htmls/pagina3.html#cabecera">Trucos</a>
-                                    <ul class="trucos">
-                                        <li><a href="htmls/pagina2.html#cabecera">Animal Crossing: New Leaf</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nivel1"><a href="htmls/pagina4.html#cabecera">Logros/trofeos</a>
-                                    <ul class="logros">
-                                        <li><a href="htmls/pagina2.html#cabecera">Beyond: Two Souls</a></li>
-                                        <li><a href="htmls/pagina2.html#cabecera">The Last Of Us</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>-->
-            <nav>
-                <!--                <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#news">News</a></li>
-                                    <li class="dropdown">
-                                        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-                                        <div class="dropdown-content">
-                                            <a href="#">Link 1</a>
-                                            <a href="#">Link 2</a>
-                                            <a href="#">Link 3</a>
-                                        </div>
-                                    </li>
-                                </ul>-->
-                <ul>
-                    <li><a href="index.html#cabecera">Portada</a></li>
-                    <li class="dropdown"><a href="html/noticias.html#cabecera">Noticias</a>
-                        <div class="dropdown-content">
-                            <a href="html/pagina2.html#cabecera">XboxOne</a>
-                            <a href="html/pagina2.html#cabecera">Switch</a>
-                        </div>
-                    </li>
-                    <li class="dropdown"><a href="html/guias.html#cabecera">Guías</a>
-                        <div class="dropdown-content">
-                            <a href="html/pagina2.html#cabecera">Dragon Quest VIII</a>
-                            <a href="html/pagina2.html#cabecera">Red Dead Redemption</a>
-                        </div>
-                    </li>
-                    <li class="dropdown"><a href="htmls/pagina3.html#cabecera">Trucos</a>
-                        <div class="dropdown-content">
-                            <a href="htmls/pagina2.html#cabecera">Animal Crossing: New Leaf</a>
-                        </div>
-                    </li>
-                    <li class="dropdown"><a href="htmls/pagina4.html#cabecera">Logros/trofeos</a>
-                        <div class="dropdown-content">
-                            <a href="htmls/pagina2.html#cabecera">Beyond: Two Souls</a>
-                            <a href="htmls/pagina2.html#cabecera">The Last Of Us</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <section id="contenido">
-                <h1>¡Bienvenid@ a AZGuias!</h1>
-                <article id="articulo">
-                    <p>AZGuias es un sitio al que acudir si te quieres enterar de las ultimas noticias o te has quedado atascado en algun juego y 
-                        quieres echar un vistazo a una guia y ya de paso mirar algun que otro truquejo, o si eres un frikazo y quieres conseguir 
-                        todos los logros/trofeos, en cualquier caso te animo a echarle un vistazo a la página. :D</p>
-                    <video width="640" height="360" controls>
-                        <source id="video" src="multimedia/videos/Wildlife.wmv" type="video/wmv">
-                        <source id="video" src="multimedia/videos/Wildlife.mp4" type="video/mp4">
-                    </video>
-
-                </article>
-            </section>
-            <aside class="columna">
-                <div id="formulario">
-                    <form action="mailto:azahara_aza@hotmail.es" method="POST">
-                        <fieldset>
-                            <legend>¡Entérate de todas la novedades!</legend>
-                            <label for="nombre">Nombre*:</label>
-                            <br/><input name="nombre" type="text" size="25" maxlength="20" placeholder="Escribe tu nombre" required="required"/>
-                            <br/><br/><label for="correo_electronico">Correo electrónico*:</label>
-                            <br/><input name="correo_electronico" type="text" size="30" maxlength="60" placeholder="Escribe tu correo electrónico" required="required"/>
-                            <br/><br/><label for="blog_personal"> Blog personal:</label>
-                            <br/><input name="blog_personal" type="text" size="30" placeholder="Escribe tu blog personal"/>
-                            <br/><br/><label for="fecha_nacimiento">Fecha de nacimiento:</label>
-                            <br/><input name="fecha_nacimiento" type="date"/>
-                            <br/><br/><input type="submit" value="Suscribirme"/>
-                            <input type="reset" value="Limpiar"/>
-                        </fieldset>
-                    </form>
-                </div>
-                <div id="tiempo">
-                    <script src="http://widgets.hispavista.com/cargarWidget.php?url=http://widgets.hispavista.com/widgets/elTiempo.xml&codWidget=6&height=280&width=174&pais=espana&ciudad=alcazar-de-san-juan&tamano=doscien&tipo=normal&texto=000000&fondo=FFFFFF&borde=DDDDDD&link=2477F2"></script>
-                </div>
-            </aside>
-        </div>
-        <footer class="pie"><hr/>
-            <aside>
-                <address>
-                    <div id="contacto">
-                        Datos de contacto:
-                        <br/>Nombre: Azahara 
-                        <br/>Apellidos: Talavera 
-                        <br/>Telefono: 000-000-000
-                        <br/>E-mail: aaaa@aaaaa.es
-                        <br/>Para madarme un e-mail directamente pulsa <a href="mailto:azahara_aza@hotmail.es"> aquí</a>
-                        <br/><a href="http://www.iesjuanbosco.es/">I.E.S. Juan Bosco</a>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Azahara"/>
+	<meta name="keywords" content="videojuegos, guias, trucos, noticias, ps4, xboxone, nintendo"/>
+	<meta name="description" content="Noticias y guias de videojuegos"/>
+	<link rel="shortcut icon" href="favicon.png" type="image/png"/>
+	<title>¡Bienvenid@ a AZGuias!</title>
+	<link rel="stylesheet" type="text/css" href="css.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+	<div class="contenedor">
+		<header class="cabecera">
+			<figure>
+				<a href="index.html"><img id="banner" src="multimedia/images/banner.jpg" alt="banner"/></a>
+			</figure>
+		</header>
+		<nav id="menu">
+			<ul>
+                <li><a href="index.html#cabecera">Portada</a></li>
+                <li class="submenu"><a href="html/noticias.html#cabecera">Noticias</a>
+                    <div class="cont_sub">
+                        <a href="html/xboxone.html">XboxOne</a>
+                        <a href="html/switch.html">Switch</a>
                     </div>
-                </address>
-            </aside>
-            <aside>
-                <div id="iconos_redes" >
-                    <figure >
-                        <a href="https://es-es.facebook.com/" target="_blank"><img class="social" id="facebook" src="multimedia/images/facebook.ico" alt="facebook" height=5 width=5 /></a>
-                        <a href="https://plus.google.com/collections/featured" target="_blank"><img class="social" id="google_plus" src="multimedia/images/google.ico" alt="google" height="5%" width="5%"/></a>
-                        <a href="https://twitter.com/?lang=es" target="_blank"><img class="social" id="twitter" src="multimedia/images/twitter.ico" alt="twitter" height="5%" width="5%"/></a>
-                        <a href="https://www.instagram.com/?hl=es" target="_blank"><img class="social" id="instagram" src="multimedia/images/instagram.png" alt="instagram" height="5%" width="5%"/></a>
-                    </figure>
-                </div>
-            </aside>
-            <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24665.739637486284!2d-3.23264692070662!3d39.396586137778094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69aee4af0d7f0f%3A0x2899244e40b7f09b!2s13600+Alc%C3%A1zar+de+San+Juan%2C+Cdad.+Real!5e0!3m2!1ses!2ses!4v1487232499798" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div> 
-        </footer>
-    </body>
+                </li>
+                <li class="submenu"><a href="html/guias.html#cabecera">Guías</a>
+                    <div class="cont_sub">
+                        <a href="html/pagina2.html#cabecera">Dragon Quest VIII</a>
+                        <a href="html/pagina2.html#cabecera">Red Dead Redemption</a>
+                    </div>
+                </li>
+                <li class="submenu"><a href="htmls/pagina3.html#cabecera">Trucos</a>
+                    <div class="cont_sub">
+                        <a href="htmls/pagina2.html#cabecera">Animal Crossing: New Leaf</a>
+                    </div>
+                </li>
+                <li class="submenu"><a href="htmls/pagina4.html#cabecera">Logros/trofeos</a>
+                    <div class="cont_sub">
+                        <a href="htmls/pagina2.html#cabecera">Beyond: Two Souls</a>
+                        <a href="htmls/pagina2.html#cabecera">The Last Of Us</a>
+                    </div>
+                </li>
+            </ul>
+            </nav>
+		<section id="contenido">
+			<h1>¡Bienvenid@ a AZGuias!</h1>
+			<article id="articulo">
+				<p>AZGuias es un sitio al que acudir si te quieres enterar de las ultimas noticias o te has quedado atascado en algun juego y 
+				quieres echar un vistazo a una guia y ya de paso mirar algun que otro truquejo, o si eres un frikazo y quieres conseguir 
+				todos los logros/trofeos, en cualquier caso te animo a echarle un vistazo a la página. :D</p>
+				<video width="640" height="360" controls>
+					<source id="video" src="multimedia/videos/Wildlife.wmv" type="video/wmv">
+				    <source id="video" src="multimedia/videos/Wildlife.mp4" type="video/mp4">
+				</video>
+				<p>Y por si quieres amenizar tu estancia aqui te invito a escuchar esta obra maestra.</p>
+				<h2>Soundtrack Skyrim-Dragonborn</h2>
+				</br><audio height="360" width="640" controls>
+					  <source src="multimedia/audios/Skyrim.ogg" type="audio/ogg">
+					  <source src="multimedia/audios/Skyrim.mp3" type="audio/mpeg">
+				</audio>
+
+			</article>
+		</section>
+		<aside class="columna">
+			<div id="formulario">
+				<form action="mailto:azahara_aza@hotmail.es" method="POST">
+					<fieldset>
+						<legend>¡Entérate de todas la novedades!</legend>
+						<label for="nombre">Nombre*:</label>
+						<br/><input name="nombre" type="text" size="25" maxlength="20" placeholder="Escribe tu nombre" required="required"/>
+						<br/><br/><label for="correo_electronico">Correo electrónico*:</label>
+						<br/><input name="correo_electronico" type="text" size="30" maxlength="60" placeholder="Escribe tu correo electrónico" required="required"/>
+						<br/><br/><label for="blog_personal"> Blog personal:</label>
+						<br/><input name="blog_personal" type="text" size="30" placeholder="Escribe tu blog personal"/>
+						<br/><br/><label for="fecha_nacimiento">Fecha de nacimiento:</label>
+						<br/><input name="fecha_nacimiento" type="date"/>
+						<br/><br/><input type="submit" value="Suscribirme"/>
+						<input type="reset" value="Limpiar"/>
+					</fieldset>
+				</form>
+			</div>
+			<div id="tiempo">
+				<script src="http://widgets.hispavista.com/cargarWidget.php?url=http://widgets.hispavista.com/widgets/elTiempo.xml&codWidget=6&height=280&width=174&pais=espana&ciudad=alcazar-de-san-juan&tamano=doscien&tipo=normal&texto=000000&fondo=FFFFFF&borde=DDDDDD&link=2477F2"></script>
+			</div>
+		</aside>
+		</div>
+		<footer class="pie"><hr/>
+			<aside>
+				<address>
+					<div id="contacto">
+						Datos de contacto:
+						<br/>Nombre: Azahara 
+						<br/>Apellidos: Talavera 
+						<br/>Telefono: 000-000-000
+						<br/>E-mail: aaaa@aaaaa.es
+						<br/>Para madarme un e-mail directamente pulsa <a href="mailto:azahara_aza@hotmail.es"> aquí</a>
+						<br/><a href="http://www.iesjuanbosco.es/" target="_blank">I.E.S. Juan Bosco</a>
+					</div>
+				</address>
+			</aside>
+			<aside>
+				<div id="iconos_redes" >
+					<figure >
+						<a href="https://es-es.facebook.com/" target="_blank"><img class="social" id="facebook" src="multimedia/images/facebook.ico" alt="facebook" height="5%" width="5%"/></a>
+						<a href="https://plus.google.com/collections/featured" target="_blank"><img class="social" id="google_plus" src="multimedia/images/google.ico" alt="google" height="5%" width="5%"/></a>
+						<a href="https://twitter.com/?lang=es" target="_blank"><img class="social" id="twitter" src="multimedia/images/twitter.ico" alt="twitter" height="5%" width="5%"/></a>
+						<a href="https://www.instagram.com/?hl=es" target="_blank"><img class="social" id="instagram" src="multimedia/images/instagram.png" alt="instagram" height="5%" width="5%"/></a>
+					</figure>
+				</div>
+			</aside>
+			<div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24665.739637486284!2d-3.23264692070662!3d39.396586137778094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69aee4af0d7f0f%3A0x2899244e40b7f09b!2s13600+Alc%C3%A1zar+de+San+Juan%2C+Cdad.+Real!5e0!3m2!1ses!2ses!4v1487232499798" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div> 
+		</footer>
+	</div>
+</body>
 </html>
