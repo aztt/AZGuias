@@ -1,15 +1,25 @@
-@media only screen (min-width:300px){
-  #contenedor{width:auto;
-              background-color:rgba(0,255,0,0.5);}
-
-   li a{
-    display:block;
-    }
+@media only screen and (max-width:500px){
+	section{
+		width:100%;
+	}
+}
+@media screen and (min-width:500px) and (max-width:1000px){
+li a {
+		width: 108px;
+	}
+section{
+		width:100%;
+	}
+#formulario{
+	position:relative;
+}
+}
+@media only screen and (min-width:1000px){
 }
 @font-face {
 	font-family: play;
 	src: url(fuentes/play.ttf);
-	}
+}
 body{
 	background-image: url("multimedia/images/fondo.jpg");
 	margin: 0;
@@ -42,9 +52,7 @@ section article {
     padding: 5px;
 	font-size: medium;
 }
-#video{
-	
-}
+
 .cabecera{
 	margin:0%;
 	padding:0;
@@ -73,10 +81,10 @@ h1{
     font-size: 40px;
 	text-decoration: underline;
 }
-
-.columna{
-	
+video{
+	width: 600px;
 }
+
 .pie{
 	background: rgba(166,166,166, 0.8);
     color: black;
@@ -124,7 +132,6 @@ ul {
     padding: 10px;
 }
 #formulario{
-    width: 300px;
     margin: 0;
     position: absolute;
     top: 35%;
@@ -147,6 +154,7 @@ article iframe{
 	height:400px;
 }
 #tiendas{
+	width: 320px;
 	position: absolute;
     float: right;
     top: 15%;
@@ -157,8 +165,8 @@ article iframe{
     padding: 5px;
     position: relative;
     float: right;
-    width: 400px;
-    height: 150px;
+    width: 300px;
+    height: 100px;
 	display:block;
 }
 table, td, th {
@@ -166,6 +174,10 @@ table, td, th {
 	border-collapse:collapse; 
 	padding:10px; 
 	text-align:center;
+}
+table{
+	 width: 500px;
+    margin: 0 auto;
 }
 table img{
 	height: 200px;
@@ -193,6 +205,7 @@ figcaption{
 /*Estilos para menú*/
 
 ul {
+	background-color: #312f2f;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -208,11 +221,12 @@ ul a, li a{
     color: white;
     text-decoration: none;
     font-variant: small-caps;
-	border-radius: 7px;
+	/* border-radius: 7px; */
 	
 }
 
 li a{
+	width: 117px;
     display: inline-block;
     text-align: center;
     padding: 10px 15px;
@@ -220,7 +234,7 @@ li a{
 
 li a:hover, .submenu:hover {
     background-color: red;
-	border-radius: 7px;
+	/* border-radius: 7px; */
 }
 
 li.submenu {
@@ -253,4 +267,3 @@ li.submenu {
     display: block;
 }
 
-.dropbtn 
