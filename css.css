@@ -9,17 +9,21 @@
         width: 300px;
     }
 
-    h1{
+    h1 {
         width: 100%;
         margin: 0px 0px 0px 0px;
     }
 
-    #tiempo{
+    aside {
         position: relative;
     }
 
-    #formulario{
-        position:relative;
+    #tiempo {
+        position: relative;
+    }
+
+    #formulario {
+        position: relative;
     }
 }
 
@@ -27,6 +31,7 @@
     /* For tablets: */
 
 }
+
 @media only screen and (min-width: 768px) {
     section {
         width: 70%;
@@ -38,23 +43,23 @@
         width: 600px;
     }
 
-    h1{
+    h1 {
         width: 70%;
         margin: 0px 0px 0px 80px;
     }
 
-    #tiempo{
+    #tiempo {
         position: absolute;
         top: 66%;
         width: 250px;
     }
 
-    #formulario{
-        position:absolute;
+    #formulario {
+        position: absolute;
         top: 35%;
     }
 
-    .contenedor{
+    .contenedor {
         margin: 5%;
     }
 }
@@ -151,10 +156,6 @@ h1 {
     margin: 0;
     padding: 0px;
     width: 100%;
-}
-
-aside {
-    position: relative;
 }
 
 aside figure {
