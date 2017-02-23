@@ -6,7 +6,12 @@
 	.cont_sub {
 		width: 100%;
 	}
+	#sub_noticias{
+	display: inline;
+	}
+	
 	section {
+		overflow-x: hidden; 
         width: 100%;
         margin: 0px;
         padding-top: 20px;
@@ -23,9 +28,25 @@
 	p, h2, figure img.imagenes {
 		margin: 10px 10px 10px;
 	}
-
-    aside {
+	article iframe {
+		width: 80%;
+		height: 250px;
+    }
+	
+	#tiendas {
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		align-content: center;
+	}
+	
+	aside {
         position: relative;
+    }
+	.relacionadas {
+		padding: 10px 110px;
+		width: 50%;
+		height: 60%;
     }
 
     #tiempo {
@@ -35,6 +56,19 @@
     #formulario {
         position: relative;
     }
+	.submenu:hover .cont_sub {
+    display: none;
+	}
+	#contacto {
+		text-align: center;
+	}
+	aside figure {
+		margin: 0 auto;
+	}
+	table img {
+		height: 100px;
+		width: 100px;
+	}
 }
 
 @media only screen and (min-width: 500px) {
@@ -52,6 +86,7 @@
 	li a{
 	    width:117px;	
 	}
+	
 
     video {
         width: 600px;
@@ -65,12 +100,27 @@
 	p, h2, figure img.imagenes {
 		margin: 10px 100px 10px;
 	}	
-
+	article iframe {
+		width: 75%;
+		height: 400px;
+	}
+	.relacionadas {
+		padding: 5px;
+		width: 300px;
+		height: 100px;
+	}
+	#tiendas {
+		position:absolute;
+		width: 320px;
+	}
     #tiempo {
         position: absolute;
         top: 66%;
         width: 250px;
     }
+	#sub_noticias{
+	display:none;
+	}
 
     #formulario {
         position: absolute;
@@ -80,6 +130,23 @@
     .contenedor {
         margin: 5%;
     }
+	.submenu:hover .cont_sub {
+    display: block;
+	}
+	#contacto {
+    float: left;
+	}
+	aside figure {
+    float: right;
+    }
+	table {
+    width: 500px;
+	}
+	table img{
+		width: 200px;
+		height: 200px;
+		
+}
 }
 
 /*@media screen and (min-width: 500px) and (max-width: 1000px) {*/
@@ -111,6 +178,7 @@ body {
     background-attachment: fixed;
     font-family: play, sans-serif;
 }
+
 
 .contenedor {
     background: rgba(166, 166, 166, 0.9);
@@ -177,7 +245,6 @@ h1 {
 
 aside figure {
     padding: 10px;
-    float: right;
     width: 50%;
     height: 30%;
 }
@@ -204,7 +271,6 @@ figure img.social {
 }
 
 #contacto {
-    float: left;
     padding: 10px;
 }
 
@@ -225,14 +291,9 @@ div iframe, .mapa {
     height: 100%;
 }
 
-article iframe {
-    width: 75%;
-    height: 400px;
-}
+
 
 #tiendas {
-    width: 320px;
-    position: absolute;
     float: right;
     top: 15%;
     right: 0%
@@ -240,11 +301,8 @@ article iframe {
 
 .relacionadas {
     margin: 0;
-    padding: 5px;
     position: relative;
     float: right;
-    width: 300px;
-    height: 100px;
     display: block;
 }
 
@@ -256,13 +314,10 @@ table, td, th {
 }
 
 table {
-    width: 500px;
     margin: 0 auto;
 }
 
 table img {
-    height: 200px;
-    width: 200px;
     transition: width 2s, height 2s, transform 2s;
 }
 
@@ -289,6 +344,8 @@ figcaption {
     padding: 10px 60px;
 }
 
+
+
 /*Estilos para menú*/
 
 ul {
@@ -312,6 +369,14 @@ ul a, li a {
     font-variant: small-caps;
     /* border-radius: 7px; */
 
+}
+.sub_noti{
+	background-color: black;
+	width: 336px;
+}
+.sub_noti:hover{
+	background-color:white;
+	color:black;
 }
 
 li a {
@@ -351,7 +416,5 @@ li.submenu {
     color: black;
 }
 
-.submenu:hover .cont_sub {
-    display: block;
-}
+
 
