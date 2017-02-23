@@ -1,0 +1,15 @@
+<rss version="2.0">
+	<channel>
+		<title>El tiempo de Alcazar de San Juan</title>
+		<link>http://www.eltiempo24.es/</link>
+		<description>
+		Pagina donde se puede consultar el tiempo de toda españa.
+		</description>
+		<language>es</language>
+		<item>
+			<title>El tiempo de Alcazar de San Juan</title>
+			<link>http://www.eltiempo24.es/Alcazar_de_San_Juan-ES2522131.html</link>
+			<description>Aqui podras ver el tiempo de Alcazar de San Juan.</description>
+		</item>
+	</channel>
+</rss>
