@@ -343,7 +343,7 @@ figure img.social {
     right: 0;
 }
 
-div iframe, .mapa {
+#mapa, .mapa {
     width: 100%;
     height: 100%;
 }
